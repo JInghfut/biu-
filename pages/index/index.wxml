@@ -1,0 +1,82 @@
+<view class="index">
+    <!-- 文字轮播 -->
+    <view class="marquee">
+        <view class="content">
+            <text>{{broadcasting}}</text> <text style="display: inline-block; width: 5em;"></text>
+            <text>{{broadcasting}}</text> <text style="display: inline-block; width: 5em;"></text>
+            <text>{{broadcasting}}</text> <text style="display: inline-block; width: 5em;"></text>
+        </view>
+    </view>
+    <scroll-view scroll-y="true" bindscrolltolower="bindDownLoad" style="height:{{scrollHeight}}px;" lower-threshold="30">
+    <swiper autoplay="" class="bannar" indicator-active-color="#ffe62b" indicator-color="#fef6f3" indicator-dots=""
+               current="0">
+        <swiper-item>
+            <image data-index="0" data-id="" class="slide-image"
+                      data-guide="{{banner.image_url}}"
+                      data-title=""
+                      src="{{banner.image_url}}">
+                <div style="background-image: url({{banner.image_url}}); background-size: 100% 100%; background-repeat: no-repeat;"></div>
+                <virtual></virtual>
+            </image>
+        </swiper-item>
+    </swiper>
+    <view class="index-search">
+        <image mode="aspectFill" class="index-search__img" src="../../images/index/bg-search.png" bindtap="toSearchPage">
+        </image>
+    </view>
+    <view class="memu">
+        <block wx:for="{{memus}}">
+        <view data-id="{{item.id}}" data-title="{{item.title}}" class="memu-item ext-item{{index}}" data-type="{{item.type}}">
+            <image mode="aspectFill" data-id="{{item.id}}" data-title="{{item.title}}" data-type="{{item.type}}" class="memu-item__img"
+                      src="{{item.image_url}}" bindtap="toCategoryPage">
+            </image>
+            <menu-text data-id="{{item.id}}" data-title="{{item.title}}" data-type="{{item.type}}" class="memu-item__txt" >
+                <span>{{item.title}}</span>
+            </menu-text>
+        </view>
+        </block>
+    </view>
+    <view class="content">
+        <view class="content-tit">最新素材</view>
+        <view class="content-main">
+                <block wx:for="{{content_items}}">
+                    <view class="content-item" data-id="{{item.id}}" data-title="{{item.bi_name}}" hover=""
+                             hover-class="is-active">
+                        <navigator url="../generator/index?id={{item.id}}&bi_id={{item.bi_id}}&bi_name={{item.bi_name}}&bi_preview_img={{item.bi_preview_img_encode}}&type={{item.type}}&bi_preview_video={{item.bi_preview_video?item.bi_preview_video_encode:''}}&&bi_cate_type={{item.bi_cate_type?item.bi_cate_type:''}}&&bi_form={{item.bi_form_encode}}">
+                            <image data-id="{{item.id}}" data-title="{{item.bi_name}}" class="content-item__Img" mode="aspectFill"
+                                      src="{{item.bi_img}}">
+                            </image>
+                            <block wx:if="{{item.bi_cate_type}}">
+                                <image wx:if="{{item.bi_cate_type == 'gif'}}" class="content-item__type" src="../../images/ico-gif.png">
+                                </image>
+                                <image wx:if="{{item.bi_cate_type == 'video'}}" class="content-item__type" src="../../images/ico-video.png">
+                                </image>
+                            </block>
+                            <menu-text data-id="{{item.id}}" data-title="{{item.bi_name}}" class="content-item__txt">
+                                <span>{{item.bi_name}}</span></menu-text>
+                            <view class="content-item__cover">
+                            </view>
+                        </navigator>
+                    </view>
+                </block>
+        </view>
+        <view class="content-more" style="display:none">
+            <view hover="" hover-class="is-active" class="content-more__inner" data-type="more">查看全部素材</view>
+        </view>
+    </view>
+    <view class="download hide">
+        <view class="download-cover"></view>
+        <image class="download-main"
+                  src="../../images/download.jpg">
+        </image>
+        <image class="download-close" src="../../images/index/ico-close.png">
+        </image>
+    </view>
+    <view class="order">
+        <image mode="scaleToFill" src="../../images/order-text.png">
+        </image>
+        <image mode="scaleToFill" src="../../images/order.png">
+        </image>
+    </view>
+    </scroll-view>
+</view>

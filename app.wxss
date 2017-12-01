@@ -1,0 +1,27 @@
+/**app.wxss**/
+container {
+        height: 100%;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-direction: column;
+        flex-direction: column;
+        -webkit-align-items: center;
+        align-items: center;
+        -webkit-justify-content: space-between;
+        justify-content: space-between;
+        padding: 96px 0;
+        box-sizing: border-box;
+    }
+
+    .btn-submit {
+        text-align: center;
+        font-size: 15px;
+        color: #262626;
+        background-color: #ffd200;
+        height: 46px;
+        line-height: 46px;
+    }
+
+    .btn-submit.is-active {
+        background-color: #f1bb00;
+    }

@@ -1,0 +1,55 @@
+<view>
+    <view class="showView" style="width:92%;height:331px;">
+        <block wx:if="{{content.bi_cate_type == 'video'}}">
+        <image  class="btn-play" src="../../images/generator/btn-play.png" bindtap="playVideo" hidden="{{btnVideoPlayHide}}">
+        </image>
+        <image bindtap="playVideo" hidden="{{btnVideoPlayHide}}" mode="aspectFit" style="width:331px;height:331px;"
+                  src="{{content.bi_preview_img}}"
+                  data-src="{{content.bi_preview_img}}">
+        </image>
+        </block>
+        <block wx:if="{{content.bi_cate_type != 'video'}}">
+            <image  mode="aspectFit" style="width:331px;height:331px;"
+                      src="{{content.bi_preview_img}}"
+                      data-src="{{content.bi_preview_img}}">
+            </image>
+        </block>
+        <video wx:if="{{content.bi_cate_type == 'video'}}"  controls="" style="width: 331px; height: 331px;{{!btnVideoPlayHide? 'display:none':''}}" id="resVideo" src="{{content.bi_preview_video}}" >
+        </video>
+    </view>
+    
+    <view class="formWrap">
+        <form bindsubmit="formSubmit">
+            <span>
+                <block wx:for="{{content.bi_form}}" wx:for-index="idx">
+                <view class="formText" wx:if="{{item.type == 'input'}}">
+                    <input bindinput="" data-index="{{idx}}" data-name="{{item.id}}" name="{{item.id}}"
+                                                           data-length="{{item.length}}" placeholder="{{item.printhit}}"
+                                                           placeholder-style="color:#999999" cursor="-1" value="">
+
+                    </input>
+                </view>
+                <view class="formImg" wx:if="{{item.type == 'img'}}">
+                    <label>{{item.label}}</label>
+                    <image bindtap="upload" data-index="{{idx}}" data-name="{{item.id}}" data-ratio="{{item.ratio}}" data-position="{{item.position}}" data-templateimg="{{item.templateimg}}" data-tap="icon"  src="{{imageInput['input'+idx].localImage}}">
+                        <input type="text" name="{{item.id}}" hidden="{{true}}"  data-index="{{idx}}" data-name="{{item.id}}" data-ratio="{{item.ratio}}" data-position="{{item.position}}" data-templateimg="{{item.templateimg}}" value="{{imageInput['input'+idx].imageUrl}}" >
+                        </input>
+                    </image>
+
+                </view>
+                <view class="formSelect" wx:if="{{item.type == 'select'}}">
+                    <label>{{item.chose[selectInput['select'+idx]].text}}:</label>
+                    <input style="width:{{isCustom['custom'+idx]?'62%':'0px'}}" focus="{{isCustom['custom'+idx]}}" bindfocus="focusInputEvent"    data-index="{{idx}}" name="{{item.id}}" data-name="{{item.id}}" value="{{item.chose[selectInput['select'+idx]].text}}"></input>
+                    <picker bindchange="pickerChange" data-inputIndex="{{idx}}" range="{{item.chose}}" range-key="text" value="{{item.chose[selectInput['select'+idx]].text}}" >
+                        <div>
+                            <text wx:if="{{!isCustom['custom'+idx]}}">{{item.chose[selectInput['select'+idx]].text}}</text>
+                            <image mode="aspectFit" src="../../images/generator/bg-select.png"></image>
+                        </div>
+                    </picker>
+                </view>
+                </block>
+                <view
+                class="form-btn"><button hover-class="is-active" class="btn-submit"
+                                            form-type="submit" >一键生成</button></view></span></form>
+    </view>
+</view>

@@ -1,0 +1,206 @@
+.showView {
+        display: -webkit-flex;
+        display: flex;
+        -webkit-align-items: center;
+        align-items: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        padding: 14px;
+        background-color: #ededed;
+        position: relative;
+    }
+
+    .showView .btn-play {
+        width: 48px;
+        height: 48px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        z-index: 20;
+        background-color: transparent;
+    }
+
+    .showView image {
+        background-color: #ededed;
+        position: relative;
+    }
+
+    .formWrap {
+        margin-left: 9px;
+        margin-right: 9px;
+        padding-bottom: 9px;
+    }
+
+    .formWrap .formText, .formWrap .formImg, .formWrap .formSelect, .formWrap .formDate {
+        margin-top: 18px;
+    }
+
+    .formText {
+        border: 1px solid #999999;
+        padding: 0 9px;
+        border-radius: 2px;
+    }
+
+    .formText input {
+        color: #262626;
+        font-size: 14px;
+        line-height: 48px;
+        height: 48px;
+    }
+
+    .formText label {
+        line-height: 40px;
+        margin-right: 10px;
+    }
+
+    .formImg {
+        overflow: hidden;
+    }
+
+    .formImg label {
+        float: left;
+        font-size: 14px;
+        color: #999999;
+        line-height: 48px;
+        padding-left: 9px;
+    }
+
+    .formImg view {
+        float: right;
+        width: 48px;
+        height: 48px;
+        background-image: url(../../images/generator/bg-image.png-do-not-use-local-path-./pages/generator/index.wxss&66&22);
+        background-size: 100% 100%;
+    }
+
+    .formImg image {
+        float: right;
+        width: 48px;
+        height: 48px;
+    }
+
+    .formSelect {
+        display: -webkit-flex;
+        display: flex;
+        border: 1px solid #999999;
+        border-radius: 2px;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+
+    .formSelect > picker {
+        -webkit-flex: 1;
+        flex: 1;
+        color: #fff;
+        line-height: 48px;
+        height: 48px;
+        position: relative;
+        font-size: 14px;
+        color: #262626;
+    }
+
+    .formSelect label {
+        font-size: 14px;
+        color: #999999;
+        line-height: 48px;
+        padding-right: 4px;
+        padding-left: 9px;
+    }
+
+    .formSelect input {
+        width: 0;
+        line-height: 28px;
+        font-size: 14px;
+    }
+
+    .formSelect input {
+        width: 0px;
+    }
+
+    .formSelect input[hidden] {
+        display: none;
+    }
+
+    .formSelect > picker image {
+        width: 48px;
+        height: 48px;
+        position: absolute;
+        right: 0px;
+        top: 50%;
+        -webkit-transform: translate(0, -50%);
+        transform: translate(0, -50%);
+        overflow: hidden;
+    }
+
+    .formSelect.ext-custom input {
+        -webkit-flex: 1;
+        flex: 1;
+        height: 28px;
+        width: auto;
+    }
+
+    .formSelect.ext-custom picker {
+        width: 48px;
+        -webkit-flex: none;
+        flex: none;
+    }
+
+    .formDate {
+        display: -webkit-flex;
+        display: flex;
+        border: 1px solid #999999;
+        border-radius: 2px;
+    }
+
+    .formDate label {
+        font-size: 14px;
+        color: #999999;
+        line-height: 48px;
+        padding-right: 4px;
+        padding-left: 9px;
+    }
+
+    .formDate > picker {
+        -webkit-flex: 1;
+        flex: 1;
+        color: #262626;
+        font-size: 14px;
+        line-height: 48px;
+        height: 48px;
+        position: relative;
+        padding-left: 9px;
+    }
+
+    .formDate > picker image {
+        width: 48px;
+        height: 48px;
+        position: absolute;
+        right: 14px;
+        top: 50%;
+        -webkit-transform: translate(0, -50%);
+        transform: translate(0, -50%);
+        overflow: hidden;
+    }
+
+    .btn-submit {
+    }
+
+    .form-btn {
+        display: -webkit-flex;
+        display: flex;
+        margin-top: 18px;
+    }
+
+    .form-btn button {
+        -webkit-flex: 1;
+        flex: 1;
+        border: none;
+        -webkit-justify-content: space-around;
+        justify-content: space-around;
+    }
+
+    .form-btn button:nth-child(1):after {
+        content: none;
+    }

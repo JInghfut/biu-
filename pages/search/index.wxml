@@ -1,0 +1,50 @@
+<view class="content">
+    <scroll-view scroll-y="true" bindscrolltolower="bindDownLoad" style="height:{{scrollHeight}}px;">
+    <view class="content-search">
+        <view class="content-search__input">
+            <input focus="" bindinput="writing" placeholder="请输入关键词~" value="{{searchAttr.searchValue}}">
+            </input>
+            <view catchtap="clearInput" class="delete {{searchAttr.showClearBtn?'':'hide'}}" >
+                <image class="delete-ico" src="../../images/search/ico-delete.png">
+                </image>
+            </view>
+        </view>
+        <view class="content-search__btn" bindtap="onSearch">搜索</view>
+    </view>
+    <view class="content-main">
+            <block wx:for="{{content_items}}">
+                <view class="content-item" data-id="{{item.id}}" data-title="{{item.bi_name}}" hover=""
+                         hover-class="is-active">
+                    <navigator url="../generator/index?id={{item.id}}&bi_id={{item.bi_id}}&bi_name={{item.bi_name}}&bi_preview_img={{item.bi_preview_img_encode}}&type={{item.type}}&bi_preview_video={{item.bi_preview_video?item.bi_preview_video_encode:''}}&&bi_cate_type={{item.bi_cate_type?item.bi_cate_type:''}}&&bi_form={{item.bi_form_encode}}">
+                        <image data-id="{{item.id}}" data-title="{{item.bi_name}}" class="content-item__Img" mode="aspectFill"
+                                  src="{{item.bi_img}}">
+                        </image>
+                        <block wx:if="{{item.bi_cate_type}}">
+                            <image wx:if="{{item.bi_cate_type == 'gif'}}" class="content-item__type" src="../../images/ico-gif.png">
+                            </image>
+                            <image wx:if="{{item.bi_cate_type == 'video'}}" class="content-item__type" src="../../images/ico-video.png">
+                            </image>
+                        </block>
+                        <menu-text data-id="{{item.id}}" data-title="{{item.bi_name}}" class="content-item__txt">
+                            <span>{{item.bi_name}}</span></menu-text>
+                        <view class="content-item__cover">
+                        </view>
+                    </navigator>
+                </view>
+            </block>
+
+    </view>
+    <view class="content-result {{searchAttr.isEmpty1 ? '':'hide'}}">
+        <image class="content-result__img" src="../../images/search/ico-noresult.png">
+        </image>
+        <view class="content-result__tips">
+            <span style="display:none;">暂无搜索结果</span>
+            <span>暂无搜索结果</span>
+        </view>
+        <view class="content-result__tips">
+            <span>换个关键词试试呗！</span>
+        </view>
+    </view>
+    <view class="content-tips {{searchAttr.noMore ? '':'hide'}}">憋拉了~ 没有更多啦</view>
+    </scroll-view>
+</view>

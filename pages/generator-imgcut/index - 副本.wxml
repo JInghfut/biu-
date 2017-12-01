@@ -1,0 +1,16 @@
+<view class="imgcut" style="position:absolute;left:0px;right:0px;bottom:0px;top:0px;">
+    <view class="imgcut__main" style="position:absolute;left:0px;right:0px;bottom:38px;top:0px;">
+        <view style="width:350px;height:350px;">
+            <canvas disable-scroll="" bindtouchend="uploadScaleEnd" bindtouchmove="uploadScaleMove"
+                       bindtouchstart="uploadScaleStart" canvas-id="croper" class="croper"
+                       style="width:350px;height:350px;">
+                <canvas width="350" height="350"></canvas>
+                <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; overflow: hidden;"></div>
+            </canvas>
+        </view>
+    </view>
+    <view class="imgcutBtn">
+        <button class="btn-cancel">取消</button>
+        <button class="btn-complete">完成</button>
+    </view>
+</view>

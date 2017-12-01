@@ -1,0 +1,67 @@
+.showView {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  margin: 14px;
+  background-color: #ededed;
+  margin-bottom: 28px;
+  width: 331px;
+  height: 331px;
+  position: relative;
+}
+
+.showView .btn-play {
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: 20;
+  background-color: transparent;
+}
+
+
+
+.showView image {
+  background-color: #ededed;
+}
+
+.showTips {
+  text-align: center;
+  font-size: 12px;
+  margin-left: 14px;
+  margin-right: 14px;
+}
+
+.showTips view {
+  display: block;
+  line-height: 17px;
+  height: 17px;
+}
+
+.ext-loading {
+  position: relative;
+}
+
+.ext-loading::after {
+  content: "视频正在下载中...";
+  font-size: 12px;
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.btn-submit {
+  position: fixed;
+  left: 9px;
+  right: 9px;
+  bottom: 32px;
+}

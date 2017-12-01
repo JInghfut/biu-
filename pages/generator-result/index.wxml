@@ -1,0 +1,29 @@
+<view class="showView" style="width:92%;height:331px;">
+    <block wx:if="{{content.bi_cate_type == 'video'}}">
+        <image  class="btn-play" src="../../images/generator/btn-play.png" bindtap="playVideo" hidden="{{btnVideoPlayHide}}">
+        </image>
+        <image bindtap="playVideo" hidden="{{btnVideoPlayHide}}" mode="aspectFit" style="width:331px;height:331px;"
+                  src="{{content.screenshot}}"
+                  data-src="{{content.screenshot}}">
+        </image>
+    </block>
+    <image wx:if="{{content.bi_cate_type != 'video'}}"
+            data-src="{{content.url}}"
+            src="{{content.url}}"
+            mode="aspectFit" style="width:331px;height:331px;" bindtap="previewImg">
+    </image>
+    <video wx:if="{{content.bi_cate_type == 'video'}}"  controls="" style="width: 331px; height: 331px;{{!btnVideoPlayHide? 'display:none':''}}" id="resVideo" src="{{content.url}}" >
+    </video>
+</view>
+<view class="showTips">
+    <view wx:if="{{content.bi_cate_type == 'video'}}">点击右上角可直接分享到微信好友</view>
+    <view><span>↑↑↑</span><span>↑↑↑</span></view>
+    <view wx:if="{{content.bi_cate_type == 'gif'}}">
+        <span>1. 点击GIF看大图 2. 然后长按屏幕 3. 保存到手机</span>
+        <span>或点击右上角直接分享到微信好友</span>
+    </view>
+    <view wx:if="{{content.bi_cate_type != 'video' && content.bi_cate_type != 'gif'}}">
+        <span>1. 点击上面图片 2. 然后长按屏幕 3. 保存到手机</span>
+        <span>或点击右上角直接分享到微信好友</span>
+    </view>
+</view>

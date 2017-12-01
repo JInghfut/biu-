@@ -1,0 +1,775 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4b444b4f-46a9-4995-89ce-284802c9a68f" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.wxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/generator/index.wxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="647">
+              <caret line="41" column="121" lean-forward="false" selection-start-line="41" selection-start-column="121" selection-end-line="41" selection-end-column="121" />
+              <folding>
+                <element signature="n#style#0;n#wx-view#0;n#wx-view#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#wx-image#1;n#block#0;n#wx-view#0;n#wx-view#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#wx-image#0;n#block#1;n#wx-view#0;n#wx-view#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#wx-video#0;n#wx-view#0;n#wx-view#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#wx-input#0;n#wx-view#2;n#block#0;n#span#0;n#wx-form#0;n#wx-view#1;n#wx-view#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/generator/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="231" column="22" lean-forward="false" selection-start-line="231" selection-start-column="21" selection-end-line="231" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.wxss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/search/index.wxss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="56" lean-forward="false" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.wxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/category/index.wxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="14" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="24" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.wxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/search/index.wxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="816">
+              <caret line="48" column="18" lean-forward="false" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
+              <folding>
+                <element signature="n#style#0;n#scroll-view#0;n#wx-view#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#wx-view#0;n#wx-view#2;n#scroll-view#0;n#wx-view#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pages/search/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="269">
+              <caret line="51" column="16" lean-forward="false" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.wxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/generator-result/index.wxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="57" lean-forward="false" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
+              <folding>
+                <element signature="n#style#0;n#wx-view#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#wx-image#1;n#block#0;n#wx-view#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#wx-image#0;n#wx-view#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#wx-video#0;n#wx-view#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/category/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="722">
+              <caret line="60" column="5" lean-forward="false" selection-start-line="60" selection-start-column="5" selection-end-line="63" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="tsconfig.json" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>mp4</find>
+      <find>display:non</find>
+      <find>setData</find>
+      <find>images/index/bg-search.pn</find>
+      <find>__network_image__</find>
+      <find>src</find>
+      <find>getCropperImage</find>
+      <find>pushOrign</find>
+      <find>wecropper</find>
+      <find>uploadTap</find>
+      <find>export</find>
+      <find>cut</find>
+      <find>imgcut</find>
+      <find>checkForm</find>
+      <find>bind</find>
+      <find>index</find>
+      <find>getImageUrl</find>
+      <find>videoContext</find>
+      <find>select</find>
+      <find>isCustom</find>
+      <find>selectInput</find>
+      <find>showTips</find>
+      <find>resVideo</find>
+      <find>btnVideoPlayHide</find>
+      <find>choose</find>
+      <find>earch/ico-noresult.png</find>
+      <find>co-noresult.png</find>
+      <find>isEmpty1</find>
+      <find>scrollHeight</find>
+      <find>loadList</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>menu-text</replace>
+      <replace>idx</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/index1.html" />
+        <option value="$PROJECT_DIR$/format.html" />
+        <option value="$PROJECT_DIR$/pages/generator-imgcut/index.wxml.html" />
+        <option value="$PROJECT_DIR$/pages/generator-result/index.wxml.html" />
+        <option value="$PROJECT_DIR$/pages/search/index.wxml.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/pages/generator/index.wxml.html" />
+        <option value="$PROJECT_DIR$/content.html" />
+        <option value="$PROJECT_DIR$/generator-result.html" />
+        <option value="$PROJECT_DIR$/category.html" />
+        <option value="$PROJECT_DIR$/../ZhiHuDaliy/pages/index/index.js" />
+        <option value="$PROJECT_DIR$/pages/category/index.wxss" />
+        <option value="$PROJECT_DIR$/more.html" />
+        <option value="$PROJECT_DIR$/index_new.html" />
+        <option value="$PROJECT_DIR$/serarch1.html" />
+        <option value="$PROJECT_DIR$/app.wxss" />
+        <option value="$PROJECT_DIR$/generator-gif.html" />
+        <option value="$PROJECT_DIR$/pages/generator/index.wxss" />
+        <option value="$PROJECT_DIR$/generator-vidoe-pg.html" />
+        <option value="$PROJECT_DIR$/generator-cut.html" />
+        <option value="$PROJECT_DIR$/pages/index/index.wxss" />
+        <option value="$PROJECT_DIR$/serarch.html" />
+        <option value="$PROJECT_DIR$/generator.html" />
+        <option value="$PROJECT_DIR$/pages/search/index.wxss" />
+        <option value="$PROJECT_DIR$/generator-video.html" />
+        <option value="$PROJECT_DIR$/pages/generator-imgcut/index.wxss" />
+        <option value="$PROJECT_DIR$/pages/generator-imgcut/index.wxml" />
+        <option value="$PROJECT_DIR$/pages/generator-imgcut/index.js" />
+        <option value="$PROJECT_DIR$/pages/index/data.json" />
+        <option value="$PROJECT_DIR$/pages/index/data.js" />
+        <option value="$PROJECT_DIR$/generator-select.html" />
+        <option value="$PROJECT_DIR$/pages/category/index.wxml" />
+        <option value="$PROJECT_DIR$/pages/search/app.json" />
+        <option value="$PROJECT_DIR$/pages/generator-result/index.js" />
+        <option value="$PROJECT_DIR$/pages/index/index.wxml" />
+        <option value="$PROJECT_DIR$/app.json" />
+        <option value="$PROJECT_DIR$/pages/index/index.js" />
+        <option value="$PROJECT_DIR$/pages/category/index.js" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/pages/generator-result/index.wxss" />
+        <option value="$PROJECT_DIR$/pages/generator-result/index.wxml" />
+        <option value="$PROJECT_DIR$/pages/generator/index.wxml" />
+        <option value="$PROJECT_DIR$/pages/generator/index.js" />
+        <option value="$PROJECT_DIR$/pages/search/index.wxml" />
+        <option value="$PROJECT_DIR$/pages/search/index.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="142" />
+    <option name="y" value="158" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="biu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="biu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="biu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="biu" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="biu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="biu" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="category" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="biu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="biu" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="generator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="biu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="biu" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="generator-result" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="biu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="biu" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="search" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pages/search" />
+      <recent name="E:\phpStudy\WWW\biu\pages\generator-imgcut" />
+      <recent name="E:\phpStudy\WWW\biu\pages\search" />
+      <recent name="E:\phpStudy\WWW\biu\pages\generator-result" />
+      <recent name="E:\phpStudy\WWW\biu\pages\generator" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4b444b4f-46a9-4995-89ce-284802c9a68f" name="Default" comment="" />
+      <created>1509200854279</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1509200854279</updated>
+      <workItem from="1509200857115" duration="6920000" />
+      <workItem from="1509238664686" duration="4174000" />
+      <workItem from="1509246534875" duration="1109000" />
+      <workItem from="1509249506339" duration="39672000" />
+      <workItem from="1509365570870" duration="7380000" />
+      <workItem from="1509373207815" duration="7967000" />
+      <workItem from="1509421060157" duration="2467000" />
+      <workItem from="1510206678165" duration="12143000" />
+      <workItem from="1510232267413" duration="52968000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="134800000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17023809" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32869565" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1518797" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/format.html" />
+    <entry file="file://$PROJECT_DIR$/index1.html" />
+    <entry file="file://$PROJECT_DIR$/../ZhiHuDaliy/pages/index/index.wxss" />
+    <entry file="file://$PROJECT_DIR$/../ZhiHuDaliy/pages/index/index.js" />
+    <entry file="file://$PROJECT_DIR$/../ZhiHuDaliy/pages/index/index.wxml" />
+    <entry file="file://$PROJECT_DIR$/pages/category/index.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="85" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="85" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../wechat-weapp-mall/pages/index/index.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-330">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/category.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="4068" column="31" lean-forward="true" selection-start-line="4068" selection-start-column="31" selection-end-line="4068" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/more.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="3264" column="183" lean-forward="false" selection-start-line="3264" selection-start-column="183" selection-end-line="3264" selection-end-column="183" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../wechat-weapp-mall/pages/index/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="53" column="31" lean-forward="false" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../wechat-weapp-mall/pages/index/index.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator-gif.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="4078" column="27" lean-forward="true" selection-start-line="4078" selection-start-column="27" selection-end-line="4311" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator-vidoe-pg.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="4366" column="22" lean-forward="true" selection-start-line="4366" selection-start-column="22" selection-end-line="4366" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator-result.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="3240" column="35" lean-forward="false" selection-start-line="3240" selection-start-column="35" selection-end-line="3240" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1552">
+          <caret line="1702" column="446" lean-forward="false" selection-start-line="1702" selection-start-column="443" selection-end-line="1702" selection-end-column="446" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/index/index.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/logs/logs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator-video.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95568">
+          <caret line="4344" column="5" lean-forward="false" selection-start-line="4344" selection-start-column="5" selection-end-line="4345" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../we-cropper/example/avatarUpload/upload/upload.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="32" column="34" lean-forward="false" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../we-cropper/example/network/network.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/generator-imgcut/index.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/generator-imgcut/index.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="25" lean-forward="false" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/generator-imgcut/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="48" lean-forward="false" selection-start-line="0" selection-start-column="48" selection-end-line="0" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../we-cropper/example/network/network.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" column="38" lean-forward="false" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/index/data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="87" lean-forward="false" selection-start-line="4" selection-start-column="87" selection-end-line="4" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/generator-imgcut/index.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/we-cropper/weCropper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="67" lean-forward="false" selection-start-line="1" selection-start-column="67" selection-end-line="1" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator-cut.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="3242" column="29" lean-forward="false" selection-start-line="3242" selection-start-column="23" selection-end-line="3242" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="169" column="23" lean-forward="false" selection-start-line="169" selection-start-column="17" selection-end-line="169" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator-select.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="4378" column="26" lean-forward="false" selection-start-line="4378" selection-start-column="20" selection-end-line="4378" selection-end-column="26" />
+          <folding>
+            <element signature="e#2826#5519#2" expanded="true" />
+            <element signature="e#5631#7688#2" expanded="true" />
+            <element signature="e#12306#15049#1" expanded="true" />
+            <element signature="e#19502#25722#1" expanded="true" />
+            <element signature="e#31746#34489#1" expanded="true" />
+            <element signature="e#52829#53434#2" expanded="true" />
+            <element signature="e#53552#53793#2" expanded="true" />
+            <element signature="e#56181#56650#2" expanded="true" />
+            <element signature="n#style#0;n#wx-view#0;n#wx-view#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#wx-image#0;n#wx-view#0;n#wx-view#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#wx-image#0;n#wx-view#0;n#wx-view#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#wx-input#0;n#wx-view#0;n#span#0;n#wx-form#0;n#wx-view#1;n#wx-view#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#wx-input#0;n#wx-view#0;n#span#0;n#wx-form#0;n#wx-view#1;n#wx-view#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#wx-input#0;n#wx-view#0;n#span#0;n#wx-form#0;n#wx-view#1;n#wx-view#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#wx-image#0;n#div#0;n#wx-picker#0;n#wx-view#0;n#span#0;n#wx-form#0;n#wx-view#1;n#wx-view#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#wx-input#0;n#wx-view#1;n#span#0;n#wx-form#0;n#wx-view#1;n#wx-view#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#wx-input#0;n#wx-view#1;n#span#0;n#wx-form#0;n#wx-view#1;n#wx-view#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#wx-input#0;n#wx-view#1;n#span#0;n#wx-form#0;n#wx-view#1;n#wx-view#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#wx-image#0;n#div#0;n#wx-picker#0;n#wx-view#1;n#span#0;n#wx-form#0;n#wx-view#1;n#wx-view#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index_new.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="4500" column="12" lean-forward="false" selection-start-line="4500" selection-start-column="12" selection-end-line="4500" selection-end-column="12" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#wx-image#1;n#wx-view#0;n#wx-view#1;n#wx-view#2;n#wx-view#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/search/index.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="35" lean-forward="false" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serarch.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="3450" column="45" lean-forward="false" selection-start-line="3450" selection-start-column="38" selection-end-line="3450" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="3273" column="1172" lean-forward="false" selection-start-line="3273" selection-start-column="1166" selection-end-line="3273" selection-end-column="1172" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/index/index.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="54" column="57" lean-forward="false" selection-start-line="54" selection-start-column="57" selection-end-line="54" selection-end-column="57" />
+          <folding>
+            <element signature="n#style#0;n#scroll-view#0;n#wx-view#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#wx-view#2;n#wx-view#2;n#scroll-view#0;n#wx-view#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/generator/index.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/generator-result/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="21" column="48" lean-forward="false" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serarch1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1025">
+          <caret line="4395" column="87" lean-forward="false" selection-start-line="4395" selection-start-column="72" selection-end-line="4395" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/index/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="82" column="20" lean-forward="false" selection-start-line="82" selection-start-column="12" selection-end-line="82" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/generator-result/index.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="40" column="17" lean-forward="false" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/generator/index.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="647">
+          <caret line="41" column="121" lean-forward="false" selection-start-line="41" selection-start-column="121" selection-end-line="41" selection-end-column="121" />
+          <folding>
+            <element signature="n#style#0;n#wx-view#0;n#wx-view#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#wx-image#1;n#block#0;n#wx-view#0;n#wx-view#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#wx-image#0;n#block#1;n#wx-view#0;n#wx-view#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#wx-video#0;n#wx-view#0;n#wx-view#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#wx-input#0;n#wx-view#2;n#block#0;n#span#0;n#wx-form#0;n#wx-view#1;n#wx-view#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/search/index.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="56" lean-forward="false" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/category/index.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="14" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="24" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/search/index.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" column="18" lean-forward="false" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
+          <folding>
+            <element signature="n#style#0;n#scroll-view#0;n#wx-view#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#wx-view#0;n#wx-view#2;n#scroll-view#0;n#wx-view#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/generator/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="231" column="22" lean-forward="false" selection-start-line="231" selection-start-column="21" selection-end-line="231" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/category/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="60" column="5" lean-forward="false" selection-start-line="60" selection-start-column="5" selection-end-line="63" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/generator-result/index.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="57" lean-forward="false" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
+          <folding>
+            <element signature="n#style#0;n#wx-view#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#wx-image#1;n#block#0;n#wx-view#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#wx-image#0;n#wx-view#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#wx-video#0;n#wx-view#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/search/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="51" column="16" lean-forward="false" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
